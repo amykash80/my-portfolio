@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Projects from './sections/projects';
 import Skills from './sections/skills';
+import Contact from './components/Contact';
 
 const theme = createTheme({
   palette: {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </ThemeProvider>
   );
