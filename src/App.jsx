@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
-import Navbar from './components/navbar'; 
+import Navbar from './components/Navbar'; 
 import Hero from './sections/Hero';
 import Projects from './sections/projects';
 import Skills from './sections/skills';
